@@ -1,0 +1,32 @@
+import { scenes } from "./characters";
+// Editable text for components/story-scenes.tsx. Keep layout and behavior in the component.
+export const characterCopy = {
+  dayTab: scenes.day.tabLabel,
+  nightTab: scenes.night.tabLabel,
+  viewPhoto: "查看实拍",
+  dayPalette: "配色：天蓝、草绿、暖黄",
+  nightPalette: "配色：深紫、浅紫、青蓝",
+  dayKeywords: "祈愿 · 旧梦 · 守望",
+  nightKeywords: "真实 · 自由 · 探索",
+  expand: `再多认识一点${scenes.day.name}`,
+  motto: scenes.day.motto,
+  nameMeaning: "在这个名字里，「祈」寄托祈愿与守护，「夙」关联旧梦、初心与未竟之愿。这是我赋予他的私人寓意：过去的回响，与未来的微光，在同一个名字中相遇。",
+  philosophy: "祈夙是愿望的化身，却不为结果而焦虑。他不是神，也不替我选择方向；他更像理想与现实之间的自我守望者，在动摇与畏惧的时候，陪我看清黎明之前的夜色。",
+  temperament: "他的“完美”不是没有缺点，而是明知缺憾，仍选择温柔、坚定与克制。不逃避，也不沉溺；为信念而活，不必急着得到答案。",
+  belief: "愿之所在，步亦不悔。",
+  beliefContinuation: "我祈，不是为了得到，而是为了不丢失那一点微光。",
+  letterEyebrow: "A LETTER TO QÍ SÙ",
+  letterTitle: `写给${scenes.day.name}`,
+  letterOneLineOne: "你是我没来得及成为的人，",
+  letterOneLineTwo: "是我还未绽放的可能性，",
+  letterOneLineThree: "是在我走累的时候，",
+  letterOneLineFour: "想回头拥抱一次的温柔理想。",
+  letterTwoLineOne: "我把那些我无法向谁解释的心事，",
+  letterTwoLineTwo: "折成一只小小的纸狐，",
+  letterTwoLineThree: "寄存在你耳尖的花纹里。",
+  letterThreeLineOne: "你不用为我成就什么，",
+  letterThreeLineTwo: "只要存在，就很好了。",
+  signature: "—— 你的造梦者",
+  selfLabel: "现实自我",
+  selfDescription: "紫色的他就是我。性格、爱好与现实一致，不是一份被修饰到完美的理想答案。木船、魔法与星空，都是我真实喜欢的事物。"
+};
