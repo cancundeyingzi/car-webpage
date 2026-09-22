@@ -1,0 +1,16 @@
+# Standalone project dependency policy.
+minimumReleaseAge: 10080
+minimumReleaseAgeIgnoreMissingTime: false
+trustLockfile: false
+strictDepBuilds: true
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
+storeDir: .pnpm-store
+cacheDir: .pnpm-store/policy-cache
+enableGlobalVirtualStore: false
+# Avoid mutating a shared dependency store through node_modules.
+packageImportMethod: clone-or-copy
+# Install explicitly before running project scripts.
+verifyDepsBeforeRun: false
+optimisticRepeatInstall: false
